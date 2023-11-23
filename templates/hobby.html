@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>興趣何倫碼</title>
+ <style type="text/css">
+  * { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+  h1 {color:blue; font-size:40px;}
+  h2 {color:#b0c8e8; font-size:35px;}
+ </style>
+
+
+ <script>
+  function change1() {
+     document.getElementById("pic").src = "/static/aa.png";
+     document.getElementById("h2text").innerText = "靈魂住著";
+  }
+
+  function change2() {
+     document.getElementById("pic").src = "/static/bb.png";
+     document.getElementById("h2text").innerText = "Pei-Ju chen ";
+  }
+ </script>
+
+
+</head>
+<body>
+ <table width="70%">
+  <tr>
+   <td>
+    <img src="/static/bb.png" width="120%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
+   </td>>
+
+   <td>
+    <h1>興趣何倫碼</h1>
+    <h2 id="h2text">Pei-Ju chen</h2>
+   </td>
+  </tr>
+ </table>
+
+
+ <table width="70%" border="1">
+  <tr>
+   <td>
+    A 藝術型<br>
+    S 社會型<br>
+    R 實作型<br><br>
+    職業座右銘<br>
+    不管前方的路有多苦，只要走的方向正確，不管多麼崎嶇不平，都比站在原地更接近幸福。<br><br>
+
+
+
+   </td>
+ 
+   <td>
+    對事對人的看法<br><br>
+    情感豐富，直覺敏銳<br>
+    內心追求自由奔放<br>
+    喜歡與人接觸，能理解他人的感受<br>
+    關心社會議題，特別是對人有幫助的事<br>
+
+   </td>
+
+   <td>
+    適合的職業<br><br>
+    1.導演/導播<br>
+    2.數位策展人員<br>
+    3.媒體公關/宣傳採買<br>
+   </td>
+  </tr>
+ </table>
+
+</body>
+</html>
